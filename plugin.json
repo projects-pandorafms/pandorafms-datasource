@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "datasource",
-  "name": "pandorafms-datasource",
-  "id": "pandorafms-pandorafms-datasource",
+  "name": "PandoraFMS datasource",
+  "id": "pandorafms-datasource",
   "metrics": true,
   "annotations": false,
   "alerting": false,
