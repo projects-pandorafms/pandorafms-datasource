@@ -35,7 +35,7 @@
         "url": "https://github.com/grafana/grafana-starter-datasource/blob/master/LICENSE"
       }
     ],
-    "screenshots": [],
+    "screenshots": [{"name": "(pandora)", "path": "img/pandora.png"}],
     "version": "1.0.1",
     "updated": "2020-04-06"
   },
