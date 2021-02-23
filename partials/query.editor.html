@@ -1,0 +1,37 @@
+<query-editor-row query-ctrl="ctrl" has-text-edit-mode="false">
+
+
+  <div class="gf-form-inline">
+
+    <div class="gf-form">
+      <label class="gf-form-label query-keyword">Label</label>
+      <input type="text" ng-model="ctrl.target.label" class="gf-form-input" spellcheck="false" ng-blur="ctrl.refresh()" placeholder = "Metric label">
+    </div>
+
+    <div class="gf-form">
+      <label class="gf-form-label query-keyword">Group</label>
+      <gf-form-dropdown model="ctrl.target.group" custom="false" lookup-text="true" get-options="ctrl.getGroupOptions($query)" on-change="ctrl.groupChanged()" placeholder = "Group name">
+      <gf-form-dropdown>
+    </div>
+
+    <div class="gf-form">
+      <label class="gf-form-label query-keyword">Agent</label>
+      <gf-form-dropdown model="ctrl.target.agent" custom="false" lookup-text="true" get-options="ctrl.getAgentOptions($query)" on-change="ctrl.agentChanged()" placeholder = "Agent alias">
+      <gf-form-dropdown>
+    </div>
+
+    <div class="gf-form">
+      <label class="gf-form-label query-keyword">Module</label>
+      <gf-form-dropdown model="ctrl.target.module" custom="false" lookup-text="true" get-options="ctrl.getModuleOptions($query)" on-change="ctrl.moduleChanged()" placeholder = "Module name">
+      <gf-form-dropdown>
+    </div>
+
+    <div class="gf-form">
+      <label class="gf-form-label query-keyword">TIP</label>
+      <gf-form-checkbox checked="ctrl.target.tip" on-change="ctrl.tipChange()">
+      </gf-form-checkbox>
+    </div>
+
+  </div>
+  
+</query-editor-row>

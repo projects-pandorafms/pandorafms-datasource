@@ -1,0 +1,23 @@
+<h3 class="page-heading">API Connection</h3>
+<div class="gf-form-group">
+	<div class="gf-form" style="width: 700px;">
+		<span class="gf-form-label width-10">Pandora extension</span>
+		<input type="text" class="gf-form-input" ng-model='ctrl.current.url' placeholder="http://x.x.x.x/pandora_console/extensions/grafana" required></input> 
+	</div>
+</div>
+<h3 class="page-heading">User authentication</h3>
+<div class="gf-form-group">
+	<div class="gf-form" style="width: 700px;">
+		<span class="gf-form-label width-10">Pandora user</span>
+		<input type="text" class="gf-form-input" ng-model='ctrl.current.jsonData.user' placeholder="User"></input> 
+		<span class="gf-form-label width-10">Password</span>
+		<input type="password" class="gf-form-input" ng-model='ctrl.current.jsonData.pass' placeholder="Password"></input> 
+	</div>
+</div>
+<div class="gf-form-group">
+	<div class="grafana-info-box">
+		<p>
+		Pandora FMS node must have the grafana API extension located in Pandora FMS console's extensions folder <code>/var/www/html/pandora_console/extensions</code> (folder by default).
+		</p>
+	</div>
+</div>
