@@ -9,3 +9,6 @@ On each query added to your panel you can find the following form fields:
 - **Agent**: List of agents assigned to the group selected. If group "All" is set, then all agents accesibles by the user set in the datasource configuration will be shown. Agents can be filtered by their alias. It's used to filter the modules available to show in the graph.
 - **Module**: List of modules available in the agent selected. Modules can be filtered by their name.
 - **TIP**: If not checked, then data is a compact representation of the time range. Else, then all real data is shown.
+
+
+To deploy a test environment please read docker/test_env.md
